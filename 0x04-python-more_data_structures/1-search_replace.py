@@ -5,4 +5,4 @@ def search_replace(my_list, search, replace):
     for i in range(my_list.count(search)):
         j = new.index(search)
         new[j] = replace
-    return 
+    return new
